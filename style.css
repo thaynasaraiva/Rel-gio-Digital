@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(8, 5, 35);
+}
+
+#clock {
+  font-size: 6em;
+  text-align: center;
+  color: rgb(233, 20, 179);
+  transition: all 0.3s ease-in-out;
+}
+
+#clock:hover {
+  transform: rotate(360deg) scale(1.2);
+}
